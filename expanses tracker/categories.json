@@ -1,0 +1,135 @@
+{
+  "categories": {
+    "Food & Dining": [
+      "Groceries",
+      "Restaurants",
+      "Cafes",
+      "Snacks",
+      "Fast Food",
+      "Beverages",
+      "Delivery Services"
+    ],
+    "Transportation": [
+      "Public Transport",
+      "Taxi / Cab",
+      "Fuel",
+      "Car Maintenance",
+      "Parking",
+      "Tolls",
+      "Bike Maintenance"
+    ],
+    "Shopping": [
+      "Clothes",
+      "Accessories",
+      "Shoes",
+      "Electronics",
+      "Home Appliances",
+      "Online Shopping",
+      "Gifts"
+    ],
+    "Utilities": [
+      "Electricity",
+      "Water",
+      "Gas",
+      "Internet",
+      "Mobile Recharge",
+      "TV / Cable",
+      "Maintenance Charges"
+    ],
+    "Housing & Rent": [
+      "Rent",
+      "Property Tax",
+      "Repairs",
+      "Home Insurance",
+      "Furniture",
+      "Cleaning Supplies"
+    ],
+    "Health & Fitness": [
+      "Gym",
+      "Supplements",
+      "Doctor Visits",
+      "Medicines",
+      "Health Insurance",
+      "Therapy",
+      "Yoga / Meditation"
+    ],
+    "Entertainment": [
+      "Movies",
+      "Music / Subscriptions",
+      "Games",
+      "Events",
+      "Streaming Services",
+      "Hobbies",
+      "Books / Magazines"
+    ],
+    "Education": [
+      "Tuition Fees",
+      "Books & Stationery",
+      "Online Courses",
+      "Workshops",
+      "Software / Learning Tools"
+    ],
+    "Travel": [
+      "Flights",
+      "Hotels",
+      "Local Travel",
+      "Visa / Passport",
+      "Tour Packages",
+      "Travel Insurance"
+    ],
+    "Personal Care": [
+      "Salon / Haircut",
+      "Cosmetics",
+      "Spa / Massage",
+      "Toiletries",
+      "Laundry / Dry Cleaning"
+    ],
+    "Family & Kids": [
+      "Childcare",
+      "Toys",
+      "School Fees",
+      "Family Events",
+      "Gifts for Family"
+    ],
+    "Savings & Investments": [
+      "Fixed Deposit",
+      "Mutual Funds",
+      "Stocks",
+      "Retirement Fund",
+      "Emergency Fund",
+      "Crypto Investments"
+    ],
+    "Insurance": [
+      "Health Insurance",
+      "Car Insurance",
+      "Life Insurance",
+      "Travel Insurance"
+    ],
+    "Donations & Charity": [
+      "Religious Offerings",
+      "Charity Donations",
+      "Community Events",
+      "Fundraisers"
+    ],
+    "Taxes & Bills": [
+      "Income Tax",
+      "Property Tax",
+      "Service Charges",
+      "Other Fees"
+    ],
+    "Business & Work": [
+      "Office Supplies",
+      "Client Meetings",
+      "Software Subscriptions",
+      "Freelancer Payments",
+      "Internet / Communication"
+    ],
+    "Miscellaneous": [
+      "Pet Care",
+      "Repair / Maintenance",
+      "Bank Charges",
+      "Lost Items",
+      "Uncategorized"
+    ]
+  }
+}
