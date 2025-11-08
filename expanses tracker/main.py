@@ -22,7 +22,7 @@ def init_db():
 
 init_db()
 
-@mcp.tool()
+@mcp.tool()  # to add the expenses 
 def add_expense(date, amount, category, subcategory="", note=""):
     '''Add a new expense entry to the database.'''
     with sqlite3.connect(DB_PATH) as c:
@@ -32,7 +32,7 @@ def add_expense(date, amount, category, subcategory="", note=""):
         )
         return {"status": "ok", "id": cur.lastrowid}
     
-@mcp.tool()
+@mcp.tool()  # to list the expenses i have made 
 def list_expenses(start_date, end_date):
     '''List expense entries within an inclusive date range.'''
     with sqlite3.connect(DB_PATH) as c:
@@ -48,7 +48,7 @@ def list_expenses(start_date, end_date):
         cols = [d[0] for d in cur.description]
         return [dict(zip(cols, r)) for r in cur.fetchall()]
 
-@mcp.tool()
+@mcp.tool()  # o summerize  stuffs 
 def summarize(start_date, end_date, category=None):
     '''Summarize expenses by category within an inclusive date range.'''
     with sqlite3.connect(DB_PATH) as c:
@@ -71,7 +71,7 @@ def summarize(start_date, end_date, category=None):
         cols = [d[0] for d in cur.description]
         return [dict(zip(cols, r)) for r in cur.fetchall()]
 
-@mcp.resource("expense://categories", mime_type="application/json")
+@mcp.resource("expense://categories", mime_type="application/json")  ## to use resorses given to mcp 
 def categories():
     # Read fresh each time so you can edit the file without restarting
     with open(CATEGORIES_PATH, "r", encoding="utf-8") as f:
